@@ -139,7 +139,7 @@ def train_and_evaluate_model(X_train, X_test, y_train, y_test):
 
 def main():
     # Load and process data
-    df = load_and_process_data('Balanced_AirQualityUCI.csv')
+    df = load_and_process_data('Air_QualityUCI.csv')
 
     # Preprocess data
     X_train, X_test, y_train, y_test = preprocess_data(df)
